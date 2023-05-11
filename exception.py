@@ -4,6 +4,9 @@ try:
     num = 1;
     while True:
         # 무한 루프 코드
+        print(num)
+        num += 2
+        time.sleep(1)
         pass
 
 except KeyboardInterrupt:
